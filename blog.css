@@ -1,0 +1,60 @@
+h1 {
+    color: #d05270;
+}
+
+h2,
+h3 {
+    color: #3a0ca3;
+}
+
+.couleur {
+    color: #d05270;
+}
+
+.image img {
+    margin: auto;
+    height: 70%;
+    width: 100%;
+}
+
+.image {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+body {
+    padding: 100px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    width: 60%;
+    margin: auto;
+}
+
+.img img {
+    background-size: contain;
+    width: 80%;
+
+}
+
+.icone img {
+    margin: auto;
+
+
+}
+
+footer {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.apropos {
+    width: 60%;
+
+}
+
+.img {
+    width: 40%;
+}
