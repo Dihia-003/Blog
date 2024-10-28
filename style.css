@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--montserrat);
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+h1 {
+  font-family: Abril Fatface;
+}
+
+body {
+  width: 1000px;
+  margin: auto;
+}
+
+:root {
+  --rose: #d05270;
+  --violet: #3a0ca3;
+  --montserrat: montserrat;
+}
+
+main header {
+  display: flex;
+  margin-top: 70px;
+  align-items: center;
+  height: 400px;
+}
+
+.welcome {
+  width: 60%;
+  padding: 0 70px 0 20px;
+}
+
+.welcome h1 {
+  color: var(--rose);
+  margin: 7px 0;
+  font-weight: lighter;
+}
+
+.welcome h2 {
+  margin: 0 0 25px 0;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.welcome p {
+  font-size: 0.9rem;
+  line-height: 20px;
+}
+
+.welcome-links {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.welcome-links svg path {
+  fill: whitesmoke;
+}
+
+#welcome-twitter,
+#welcome-linkedin,
+#welcome-medium {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 150px;
+  border-radius: 2px;
+  color: whitesmoke;
+  padding: 0 10px;
+  font-size: 0.8rem;
+  user-select: none;
+}
+
+#welcome-twitter {
+  background: #47acdf;
+}
+#welcome-linkedin {
+  background: rgb(18, 117, 177);
+}
+#welcome-medium {
+  background: rgb(0, 0, 0);
+}
+
+.welcome-img-container {
+  background-image: url("./assets/img/illustration.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 80%;
+  transform: translateY(-30px);
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 70px 0 300px 0;
+}
+
+.main-card {
+  width: 49%;
+  margin: 0px 0 50px 0;
+}
+
+.main-img-container {
+  text-align: center;
+}
+
+.main-img-container img {
+  width: 100%;
+}
+
+.card-img-legende {
+  font-size: 0.8rem;
+  margin: 5px 0 15px 0;
+  font-weight: 500;
+}
+
+.card-h1 {
+  color: var(--rose);
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.card-p {
+  font-weight: light;
+  font-size: 0.9rem;
+  margin: 0 0 20px 0;
+}
+
+.card-link {
+  position: relative;
+  color: var(--rose);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.card-link:after {
+  content: "";
+  height: 1px;
+  width: 110px;
+  position: absolute;
+  background: var(--rose);
+  transform: translate(-135%, 20px);
+}
+
+.card-link:hover {
+  color: blue;
+}
+
+.card-link:hover:after {
+  background: blue;
+}
