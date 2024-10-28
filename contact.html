@@ -5,21 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="navbar.css" />
 </head>
 <body>
+    <header>
+        <nav>
+          <a href="index.html"><img src="./assets/img/logo.png" alt="logo" /></a>
+          <ul>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="#">CV</a></li>
+            <li><a href="./aPropos.html">A propos</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
     <form action="">
 
         <h1>Contactez-nous</h1>
         <label for="name">Name</label><br>
         <input type="text" id="name" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" required placeholder="Enter your name" >
         <br><br>
-        
+
+        <label for="telephone">Number</label><br>
+        <input type="text" id="telephone" pattern="[0-9]+" required placeholder="Enter your number" >
+        <br><br>
+
         <label for="email">Email</label><br>
         <input type="email" id="email" name="email" required placeholder="Enter your Email" >
         <br><br>
         
         <label for="mess">Any comments or sugestion?</label><br>
         <textarea name="mess" id="mess" placeholder="Enter your comments here..."></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
     </form>
+    <footer>
+        <img src="assets/img/reseaux.png" alt="reseaux" class="reseaux">
+    </footer>
 </body>
 </html>
