@@ -1,0 +1,53 @@
+/* {
+    color: #d05270;
+    color: #3a0ca3;
+}*/
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #3a0ca3;
+}
+
+p {
+    text-align: start;
+}
+
+.fond {
+    display: flex;
+    /* Crée une mise en page en flexbox */
+    justify-content: space-between;
+    /* Espace entre le texte et l'image */
+    align-items: center;
+    /* Aligner le texte et l'image verticalement */
+}
+
+.texte-et-image {
+    display: flex;
+    /* Utiliser flexbox pour aligner texte et image */
+    gap: 20px;
+    /* Espace entre l'image et le texte */
+    margin: auto;
+}
+
+.texte {
+
+    height: 60%;
+    text-align: center;
+}
+
+.image img {
+    max-width: 500px;
+    /* Limite la taille de l'image */
+    height: auto;
+    /* Garde les proportions de l'image */
+}
+
+h2 {
+    color: #d05270;
+}
+
+footer {
+    text-align: center;
+    margin-top: 150px;
+}

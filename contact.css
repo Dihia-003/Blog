@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 30px;
+}
+
+form {
+    background-color: black;
+    color: white;
+}
