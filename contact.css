@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+    font-family: montserrat;
+}
 
 body {
     display: flex;
@@ -49,4 +52,8 @@ input[type="text"],
 
 header {
     width: 60%;
+}
+
+h1 {
+    font-family: abril fatface;
 }
